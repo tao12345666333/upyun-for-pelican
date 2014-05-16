@@ -73,4 +73,3 @@ def main(BUCKETNAME, USERNAME, PASSWORD, local_dir):
 if __name__ == '__main__':
 	local_dir = './output'
 	main(BUCKETNAME, USERNAME, PASSWORD, local_dir)
-
