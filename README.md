@@ -37,3 +37,9 @@ pip install upyun
 
 * 程序执行开始会有上传确认提示，输入`Y / y` 都可以继续上传。 
 * 可以使用项目中的`pelicanconf.py`作为个人站点的配置文件。
+
+* 截图 
+![upyun-for-pelican][1]
+
+
+  [1]: http://moelove.qiniudn.com/2014-05-17%2013:20:56%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png
