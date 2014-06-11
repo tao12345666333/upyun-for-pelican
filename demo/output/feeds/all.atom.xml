@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pelican for UPYUN</title><link href="http://pelican-for-upyun.b0.upaiyun.com/" rel="alternate"></link><link href="http://pelican-for-upyun.b0.upaiyun.com/feeds/all.atom.xml" rel="self"></link><id>http://pelican-for-upyun.b0.upaiyun.com/</id><updated>2014-05-12T00:00:00+08:00</updated><entry><title>Hello World !</title><link href="http://pelican-for-upyun.b0.upaiyun.com/hello-world.html" rel="alternate"></link><updated>2014-05-12T00:00:00+08:00</updated><author><name>BruceZhang</name></author><id>tag:pelican-for-upyun.b0.upaiyun.com,2014-05-12:hello-world.html</id><summary type="html">&lt;hr /&gt;
+&lt;h1&gt;pelican-upyun-for-UPYUN&lt;/h1&gt;
+&lt;h3&gt;Pelcian是一款基于python 的静态博客生成工具，本项目是Pelican的又拍云上传插件，可以方便的把自己的博客部署到又拍云面。&lt;/h3&gt;</summary><category term="Pelican"></category><category term="Blog"></category></entry></feed>
