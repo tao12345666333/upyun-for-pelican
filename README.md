@@ -6,7 +6,6 @@ upyun-for-pelican
 
 ###生成网站
 ```
-
     make html
     
     make serve   (进行本地预览)
@@ -15,16 +14,22 @@ upyun-for-pelican
 
 ###说明
 
-*  程序使用了又拍云的[官方SDK](https://github.com/upyun/python-sdk) 需要先安装 upyun
+*  可以下载代码中的**demo** 体验效果
 ```
-pip install upyun
+cd demo/
+
+python upyun-for-pelican.py
+
 ```
 
-*  可以自定义要上传的文件目录。在最下方的`local_dir` 中指定即可。Pelican默认的上传目录是 output 目录
+程序即可正常执行(在demo中已经添加了一个操作员的帐号)
+
+
+*  可以自定义要上传的文件目录。在最下方的`local_dir` 中指定即可。Pelican默认的上传目录是 **output** 目录
 
 ###使用
 
-1. 可以在 **pelicanconf.py** 文件中直接设置 `BUCKETNAME, USERNAME, PASSWORD` 参数（这些参数的使用大写命名格式也是为了符合*pelicanconf.py*中的习惯），也可以直接在 `upyun-for-pelican.py`文件的最下方直接设置。
+1. 可以在 **pelicanconf.py** 文件中直接设置 `BUCKETNAME, USERNAME, PASSWORD` 参数，也可以直接在 `upyun-for-pelican.py`文件的最下方直接设置。
 
 2. 执行
     ```
@@ -39,7 +44,11 @@ pip install upyun
 * 可以使用项目中的`pelicanconf.py`作为个人站点的配置文件。
 
 * 截图 
-![upyun-for-pelican][1]
+
+![operation][1]
+
+![upyun-for-pelican][2] 
 
 
-  [1]: http://moelove.qiniudn.com/2014-05-17%2013:20:56%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png
+  [1]: http://pelican-for-upyun.b0.upaiyun.com/img/screen.png
+  [2]: http://moelove.qiniudn.com/2014-05-17%2013:20:56%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png
